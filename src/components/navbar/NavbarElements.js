@@ -12,7 +12,7 @@ export const Nav = styled.div`
 	position: sticky;
 	top: 0;
 	z-index: 10;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
 `;
 
 export const NavbarContainer = styled.div`
