@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
 	display: flex;
 	align-items: center;
 	padding: 0;
-	height: 800px;
+	height: 600px;
 	position: relative;
 	z-index: 1;
 
@@ -27,6 +27,7 @@ export const HeroContainer = styled.div`
 	}
 `;
 
+//video player container
 export const HeroBg = styled.div`
 	position: absolute;
 	top: 0;
@@ -74,6 +75,8 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
 	color: #fff;
 	font-size: 4rem;
+	font-family: 'Crimson Text', serif;
+	line-height: 60px;
 `;
 
 export const HeroP = styled.p`
@@ -93,4 +96,11 @@ export const Button = styled.button`
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: #3aa018;
+		transition: all 0.3s ease-in-out;
+	}
 `;
