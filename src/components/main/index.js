@@ -42,7 +42,6 @@ const Main = () => {
 				<img className='grid' src={Grid6} alt='grid1' />
 				<img className='grid' src={Grid7} alt='grid1' />
 				<img className='grid' src={Grid8} alt='grid1' />
-				<img className='grid' src={Grid9} alt='grid1' />
 			</RightWrap>
 		</MainContainer>
 	);

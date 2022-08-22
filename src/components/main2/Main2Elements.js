@@ -11,7 +11,8 @@ export const Main2Container = styled.div`
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
-		padding: 30px 40px;
+		padding: 30px 20px;
+		text-align: center;
 	}
 `;
 export const LeftWrap = styled.div`
@@ -32,6 +33,11 @@ export const RightWrap = styled.div`
 export const MainH1 = styled.h1`
 	font-size: 3rem;
 	margin-bottom: 20px;
+
+	@media screen and (max-width: 768px) {
+		font-family: 'Crimson Text', serif;
+		font-size: 2rem;
+	}
 `;
 export const MainP = styled.p`
 	color: #808080;

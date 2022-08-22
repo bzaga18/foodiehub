@@ -7,6 +7,7 @@
 
 .sideIcon {
   margin-right: 20px;
+  color: #454559;
 }
 
 .grid {
@@ -14,6 +15,7 @@
   height: 150px;
   object-fit: cover;
 }
+
 
 .main2 {
   width: 100%;
@@ -30,4 +32,22 @@
   border-left: solid 5px #e03852;
   margin-bottom: 12px;
   padding-left: 16px;
+  color: #808080;
+}
+
+.quoteIcon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #e03852;
+}
+
+@media screen and (max-width: 768px) {
+  .li {
+    text-align: start;
+    border-left: solid 5px #e03852;
+  }
+
+  .ul {
+    line-height: 20px;
+  }
 }

@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 				<ClosedIcon />
 			</Icon>
 			<NavLogo to='/' onClick={toggleHome}>
-				Foodie<span style={{ color: "#6ae342" }}>Hub</span>
+				Foodie<span style={{ color: "#e03852" }}>Hub</span>
 			</NavLogo>
 			<SidebarWrapper>
 				<SidebarMenu>

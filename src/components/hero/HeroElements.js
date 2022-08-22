@@ -77,12 +77,18 @@ export const HeroH1 = styled.h1`
 	font-size: 4rem;
 	font-family: 'Crimson Text', serif;
 	line-height: 60px;
+
+	
 `;
 
 export const HeroP = styled.p`
 	color: #fff;
     padding: 20px 0;
     font-size: 1.2rem;
+
+	@media screen and (max-width: 768px) {
+		font-size: 1rem;	
+	}
 `;
 
 export const HeroBtnWrapper = styled.div`

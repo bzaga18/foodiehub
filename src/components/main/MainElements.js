@@ -11,7 +11,8 @@ export const MainContainer = styled.div`
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
-		padding: 30px 40px;
+		padding: 30px 20px;
+		text-align: center;
 	}
 `;
 export const LeftWrap = styled.div`
@@ -19,6 +20,11 @@ export const LeftWrap = styled.div`
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 700px;
+
+	@media screen and (max-width: 768px) {
+		margin-bottom: 40px;
+	}
 `;
 
 export const RightWrap = styled.div`
@@ -27,16 +33,27 @@ export const RightWrap = styled.div`
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 150px);
 	grid-gap: 5px;
-	max-width: 500px;
-	min-width: 360px;
+	/* max-width: 700px; */
+	/* min-width: 460px; */
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: center;
+
+	@media screen and (max-width: 768px) {
+		grid-template-columns: repeat(2, 50%);
+		align-items: center;
+		max-width: 300px;
+	}
 `;
 
 export const MainH1 = styled.h1`
 	font-size: 3rem;
 	margin-bottom: 20px;
+	font-family: 'Crimson Text', serif;
+
+	@media screen and (max-width: 768px) {
+		font-size: 2rem;
+	}
 `;
 export const MainP = styled.p`
 	color: #808080;

@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
 	z-index: 999;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to bottom, #2f9355, #33a35e, #2f9355);
+	background: #262631;
 	display: flex;
 	flex-direction: column;
 	top: 0;
@@ -80,7 +80,7 @@ export const SidebarLink = styled(LinkS)`
 	border-radius: 18px;
 
 	&:hover {
-		background-color: #226d3f;
+		background-color: #181820;
 		transition: all 0.3s ease-in-out;
 		border-radius: 18px;
 	}
@@ -95,7 +95,7 @@ export const SideBtnWrap = styled.div`
 export const SidebarRoute = styled(LinkR)`
 	list-style: none;
 	text-decoration: none;
-	background-color: #226d3f;
+	background-color: #e03852;
 	padding: 12px 64px;
 	border-radius: 24px;
 	color: #fff;
@@ -114,7 +114,7 @@ export const SocialIconWrapper = styled.div`
 	display: flex;
 	justify-content: space-evenly;
 	width: 50%;
-	color: #10321d;
+	color: #e03852;
 	left: 0;
 	right: 0;
 	margin-left: auto;
