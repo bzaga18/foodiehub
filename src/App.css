@@ -8,3 +8,10 @@
 .sideIcon {
   margin-right: 20px;
 }
+
+.grid {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  
+}

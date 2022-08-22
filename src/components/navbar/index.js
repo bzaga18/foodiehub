@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
 		<Nav>
 			<NavbarContainer>
 				<NavLogo to='/' onClick={toggleHome}>
-					Foodie<span style={{ color: "#6ae342" }}>Hub</span>
+					Foodie<span style={{ color: "#e03852" }}>Hub</span>
 				</NavLogo>
 				<MobileIcon>
 					<FaBars onClick={toggle} />

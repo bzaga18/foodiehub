@@ -91,16 +91,19 @@ export const HeroBtnWrapper = styled.div`
 `;
 
 export const Button = styled.button`
-    background-color: #6ae342;
+    background-color: #e03852;
     outline: none;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 
 	&:hover {
-		background-color: #3aa018;
+		background-color: #b91d34;
 		transition: all 0.3s ease-in-out;
 	}
 `;
