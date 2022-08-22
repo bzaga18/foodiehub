@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Sidebar from "../components/sidebar";
 import Main from "../components/main";
+import Main2 from "../components/main2";
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ const Home = () => {
 			<Hero />
 			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Main />
+			<Main2 />
 		</>
 	);
 };

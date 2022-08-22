@@ -13,5 +13,21 @@
   width: 150px;
   height: 150px;
   object-fit: cover;
-  
+}
+
+.main2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ul {
+  list-style: none;
+  line-height: 25px;
+}
+
+.li {
+  border-left: solid 5px #e03852;
+  margin-bottom: 12px;
+  padding-left: 16px;
 }
