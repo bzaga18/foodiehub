@@ -1,5 +1,7 @@
 import React from "react";
 import { FooterContainer, LeftWrap, RightWrap, MiddleWrap, ContentH1, ContentP } from "./FooterElements";
+import {FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa'
+import {AiOutlineYoutube} from 'react-icons/ai'
 
 const Footer = () => {
 	return (
@@ -21,11 +23,11 @@ const Footer = () => {
             </MiddleWrap>
 			<RightWrap>
                 <ContentH1>Socials</ContentH1>
-                <ContentP className="footerContent">
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Instagram</p>
-                    <p>YouTube</p>
+                <ContentP className="iconsWrap">
+                    <FaTwitter className="footerIcons" />
+                    <FaInstagram className="footerIcons" />
+                    <FaFacebook className="footerIcons" />
+                    <AiOutlineYoutube className="footerIcons" />
                 </ContentP>
             </RightWrap>
 		</FooterContainer>

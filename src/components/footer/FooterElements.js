@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
     background-color: #262631;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-    padding-left: 190px;
+    padding-left: 160px;
     padding-top: 40px;
 `;
 export const LeftWrap = styled.div`
@@ -24,6 +24,7 @@ export const RightWrap = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	align-items: center;
 `;
 
 export const ContentH1 = styled.h1`
