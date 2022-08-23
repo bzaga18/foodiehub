@@ -76,6 +76,15 @@
   margin-top: 5px;
 }
 
+.footerContent {
+  line-height: 25px;
+}
+
+.copyright {
+  margin-top: 12px;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .li {
