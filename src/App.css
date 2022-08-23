@@ -14,6 +14,7 @@
   width: 150px;
   height: 150px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 
@@ -41,6 +42,41 @@
   color: #e03852;
 }
 
+.profileImg {
+  width: 200px;
+  height: 170px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.chefName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.cardIcon {
+  color: #e03852;
+  font-size: 1.2rem;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.cardIconFB {
+  color: #4267b2;
+  font-size: 1.2rem;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.cardIconTW {
+  color: #00acee;
+  font-size: 1.2rem;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+
 @media screen and (max-width: 768px) {
   .li {
     text-align: start;
@@ -50,4 +86,15 @@
   .ul {
     line-height: 20px;
   }
+
+  .grid {
+    width: 100%;
+    height: auto;
+  }
+
+  .profileImg {
+    width: 100%;
+    height: auto;
+  }
+  
 }

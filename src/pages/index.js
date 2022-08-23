@@ -5,6 +5,7 @@ import Sidebar from "../components/sidebar";
 import Main from "../components/main";
 import Main2 from "../components/main2";
 import Quote from "../components/quote";
+import Chefs from "../components/chefs";
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Home = () => {
 			<Main />
 			<Main2 />
 			<Quote />
+			<Chefs />
 		</>
 	);
 };

@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
 	padding: 60px 80px;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 1400px;
+	max-width: 1300px;
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
@@ -28,10 +28,10 @@ export const LeftWrap = styled.div`
 `;
 
 export const RightWrap = styled.div`
-	width: 100%;
+	width: 80%;
 	height: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 150px);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 5px;
 	/* max-width: 700px; */
 	/* min-width: 460px; */
@@ -40,9 +40,9 @@ export const RightWrap = styled.div`
 	justify-content: center;
 
 	@media screen and (max-width: 768px) {
-		grid-template-columns: repeat(2, 50%);
+		grid-template-columns: auto;
 		align-items: center;
-		max-width: 300px;
+		max-width: 400px;
 	}
 `;
 

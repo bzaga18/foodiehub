@@ -33,6 +33,7 @@ export const RightWrap = styled.div`
 export const MainH1 = styled.h1`
 	font-size: 3rem;
 	margin-bottom: 20px;
+	font-family: 'Crimson Text', serif;
 
 	@media screen and (max-width: 768px) {
 		font-family: 'Crimson Text', serif;
