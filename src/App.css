@@ -155,6 +155,23 @@
   object-fit: cover;
 }
 
+.specialFeaturesIcon {
+  font-size: 2.5rem;
+}
+
+.specialFeaturesH2 {
+  text-transform: uppercase;
+  margin: 20px 0;
+  letter-spacing: 3px;
+}
+
+.specialFeaturesBG {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  filter: brightness(30%);
+}
+
 @media screen and (max-width: 768px) {
   .li {
     text-align: start;
@@ -207,6 +224,11 @@
 
   .cardImg {
     width: 100%;
+  }
+
+  .specialFeaturesBG {
+    height: 1000px;
+    width: auto;
   }
 
 }

@@ -5,6 +5,7 @@ import { CardData, CardDataTwo, CardDataThree } from "../components/recipesInfo/
 import { RecipesWrap } from "../components/recipesInfo/RecipesInfoElements";
 import styled from "styled-components";
 import EditorsChoice from "../components/recipesEditorsChoice";
+import SpecialFeatures from "../components/specialFeatures";
 
 
 const RecipesPage = () => {
@@ -17,6 +18,7 @@ const RecipesPage = () => {
                 <RecipesInfo {...CardDataThree} />
             </div>
             <EditorsChoice />
+            <SpecialFeatures />
 		</>
 	);
 };

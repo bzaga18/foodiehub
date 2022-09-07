@@ -11,6 +11,7 @@ export const Content = styled.div`
 
 export const EditorsChoiceWrap = styled.div`
     background-color: #f7f5f0;
+    padding-bottom: 50px;
 `
 export const EditorsChoiceTitle = styled.div`
     text-align: center;
