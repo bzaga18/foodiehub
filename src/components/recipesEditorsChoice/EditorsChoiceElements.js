@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Content = styled.div`
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const EditorsChoiceWrap = styled.div`
@@ -40,6 +44,11 @@ export const ImageContentOverlay = styled.div`
     justify-content: center;
     flex-direction: column;
     transition: 0.3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+        width: 32%;
+        height: 45%;
+    }
 
     &:hover {
         background-color: #e03852;

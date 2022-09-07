@@ -126,7 +126,6 @@
   display: grid;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
-  
   padding: 16px;
   gap: 10px 80px;
 }
@@ -183,4 +182,31 @@
   .chefName {
     font-size: 1.1rem;
   }
+
+  .recipesWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ECImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .recipesHero {
+    height: 500px;
+    width: auto;
+  }
+
+  .recipesWrap {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardImg {
+    width: 100%;
+  }
+
 }
