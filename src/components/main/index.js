@@ -34,12 +34,12 @@ const Main = () => {
 				</MainBtnWrap>
 			</LeftWrap>
 			<RightWrap>
-				<img className='grid' src={Grid1} alt='grid1' />
+				<img className='grid removed' src={Grid1} alt='grid1' />
 				<img className='grid' src={Grid2} alt='grid1' />
 				<img className='grid' src={Grid3} alt='grid1' />
 				<img className='grid' src={Grid4} alt='grid1' />
 				<img className='grid' src={Grid5} alt='grid1' />
-				<img className='grid' src={Grid6} alt='grid1' />
+				<img className='grid removed' src={Grid6} alt='grid1' />
 			</RightWrap>
 		</MainContainer>
 	);

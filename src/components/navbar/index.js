@@ -12,6 +12,7 @@ import {
 	NavBtnLink,
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ toggle }) => {
 	// const [scrollNav, setScrollNav] = useState(false);
@@ -43,10 +44,10 @@ const Navbar = ({ toggle }) => {
 				</MobileIcon>
 				<NavMenu>
 					<NavItem>
-						<NavLink>Home</NavLink>
+						<NavLink onClick={toggleHome}>Home</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink>Recipes</NavLink>
+						<NavLink as={Link} to={'/recipes'}>Recipes</NavLink>
 					</NavItem>
 					<NavItem>
 						<NavLink>About</NavLink>
@@ -56,7 +57,7 @@ const Navbar = ({ toggle }) => {
 					</NavItem>
 				</NavMenu>
 				<NavBtn>
-					<NavBtnLink to='/'>Sign In</NavBtnLink>
+					<NavBtnLink to='/signin'>Sign In</NavBtnLink>
 				</NavBtn>
 			</NavbarContainer>
 		</Nav>

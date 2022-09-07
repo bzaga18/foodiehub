@@ -44,6 +44,10 @@ export const Description = styled.p`
     padding: 10px;
     color: #808080;
     line-height: 24px;
+
+    @media screen and (max-width: 768px) {
+        line-height: 20px;
+    }
 `
 export const CardIcon = styled.div`
 

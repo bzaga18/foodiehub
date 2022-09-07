@@ -108,6 +108,47 @@
   transition: all 0.3s ease-in-out;
 }
 
+.recipesHero {
+  width: 100%;
+  height: auto;
+  filter: brightness(80%);
+}
+
+.cardImg {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.recipesWrap {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  
+  padding: 16px;
+  gap: 10px 80px;
+}
+
+.cardSubtitle {
+  text-align: start;
+  padding-top: 10px;
+}
+
+.cardBtn {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  background-color: #e03852;
+  color: #fff;
+  padding: 12px 24px;
+  margin-top: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   .li {
@@ -124,9 +165,16 @@
     height: auto;
   }
 
+  .removed {
+    display: none;
+  }
+
   .profileImg {
-    width: 100%;
+    width: 180px;
     height: auto;
   }
   
+  .chefName {
+    font-size: 1.1rem;
+  }
 }

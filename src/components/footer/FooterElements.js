@@ -8,6 +8,14 @@ export const FooterContainer = styled.div`
 	grid-template-columns: repeat(3, 1fr);
     padding-left: 160px;
     padding-top: 40px;
+
+	@media screen and (max-width: 768px) {
+		grid-template-columns: auto;
+		padding: 0;
+		height: 450px;
+		margin-top: 50px;
+		padding-top: 30px;
+	}
 `;
 export const LeftWrap = styled.div`
 	display: flex;
@@ -31,6 +39,10 @@ export const ContentH1 = styled.h1`
     font-size: 1.2rem;
     color: #fff;
     margin-bottom: 16px;
+
+	@media screen and (max-width: 768px) {
+		margin-bottom: 10px;
+	}
 `;
 export const ContentP = styled.p`
     font-size: 0.9rem;

@@ -38,6 +38,7 @@ export const MainH1 = styled.h1`
 	@media screen and (max-width: 768px) {
 		font-family: 'Crimson Text', serif;
 		font-size: 2rem;
+		margin-top: 20px;
 	}
 `;
 export const MainP = styled.p`
