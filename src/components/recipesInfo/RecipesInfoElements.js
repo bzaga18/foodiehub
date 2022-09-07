@@ -9,3 +9,15 @@ export const RecipesContainer = styled.div`
 export const RecipeCard = styled.div`
     width: 300px;
 `
+
+export const EditorsChoiceWrap = styled.div`
+
+`
+
+export const EditorsChoiceTitle = styled.div`
+
+`
+
+export const EditorsChoiceContent = styled.div`
+
+`

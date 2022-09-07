@@ -150,6 +150,12 @@
   cursor: pointer;
 }
 
+.ECImg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
   .li {
     text-align: start;
