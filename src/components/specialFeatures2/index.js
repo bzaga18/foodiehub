@@ -13,98 +13,114 @@ import {
 	TopRow,
 	BottomRow,
 	Card,
-    Content,
-    Header
+	Content,
+	Header,
+	Button,
+	Hidden,
 } from "./specialFeatures2Elements";
 
 const SpecialFeatures2 = () => {
 	return (
 		<CardContainer>
-            <Header>Special Features</Header>
+			<Header>Special Features</Header>
 			<TopRow>
 				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
 					<img className='SFimg' src={Card1} />
 					<Content>
 						<h3 className='SFheader'>Skirt Steak Pasta</h3>
-						<p className="SFauthor">By Lina Sukowati</p>
-						<p className="SFtime">
+						<p className='SFauthor'>By Lina Sukowati</p>
+						<p className='SFtime'>
 							<AiOutlineClockCircle />9 Minutes
 						</p>
 					</Content>
 				</Card>
 				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
 					<img className='SFimg' src={Card2} />
 					<Content>
 						<h3 className='SFheader'>Poached Eggs</h3>
-						<p className="SFauthor">By Denise Gonzaga</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />7 Minutes
-						</p>
-					</Content>
-				</Card>
-                <Card>
-					<img className='SFimg' src={Card3} />
-					<Content>
-						<h3 className='SFheader'>Italiano Pepperoni Pizza</h3>
-						<p className="SFauthor">By Marcus McWhorter</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />22 Minutes
-						</p>
-					</Content>
-				</Card>
-                <Card>
-					<img className='SFimg' src={Card4} />
-					<Content>
-						<h3 className='SFheader'>Cilantro Lime Tacos</h3>
-						<p className="SFauthor">By Dominic Bindley</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />19 Minutes
-						</p>
-					</Content>
-				</Card>
-			</TopRow>
-			<BottomRow>
-            <Card>
-					<img className='SFimg' src={Card5} />
-					<Content>
-						<h3 className='SFheader'>Mediterranean Salad</h3>
-						<p className="SFauthor">By Ryan Joyce</p>
-						<p className="SFtime">
+						<p className='SFauthor'>By Link & Zelda</p>
+						<p className='SFtime'>
 							<AiOutlineClockCircle />7 Minutes
 						</p>
 					</Content>
 				</Card>
 				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
+					<img className='SFimg' src={Card3} />
+					<Content>
+						<h3 className='SFheader'>Italiano Pepperoni Pizza</h3>
+						<p className='SFauthor'>By Marcus McWhorter</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />
+							22 Minutes
+						</p>
+					</Content>
+				</Card>
+				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
+					<img className='SFimg' src={Card4} />
+					<Content>
+						<h3 className='SFheader'>Cilantro Lime Tacos</h3>
+						<p className='SFauthor'>By Dominic Bindley</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />
+							19 Minutes
+						</p>
+					</Content>
+				</Card>
+			</TopRow>
+			<BottomRow>
+				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
+					<img className='SFimg' src={Card5} />
+					<Content>
+						<h3 className='SFheader'>Mediterranean Salad</h3>
+						<p className='SFauthor'>By Ryan Joyce</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />7 Minutes
+						</p>
+					</Content>
+				</Card>
+				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
 					<img className='SFimg' src={Card6} />
 					<Content>
 						<h3 className='SFheader'>Grilled Angus Burger</h3>
-						<p className="SFauthor">By Mary Panganiban</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />25 Minutes
+						<p className='SFauthor'>By Mary Panganiban</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />
+							25 Minutes
 						</p>
 					</Content>
 				</Card>
-                <Card>
+				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
 					<img className='SFimg' src={Card7} />
 					<Content>
 						<h3 className='SFheader'>Sushi Roll</h3>
-						<p className="SFauthor">By Link & Zelda</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />14 Minutes
+						<p className='SFauthor'>By Denise Gonzaga</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />
+							14 Minutes
 						</p>
 					</Content>
 				</Card>
-                <Card>
+				<Card>
+					<Hidden className='hidden'>View Recipe</Hidden>
 					<img className='SFimg' src={Card8} />
 					<Content>
 						<h3 className='SFheader'>Garden Prawn Salad</h3>
-						<p className="SFauthor">By Peter Pan</p>
-						<p className="SFtime">
-							<AiOutlineClockCircle />12 Minutes
+						<p className='SFauthor'>By Peter Pan</p>
+						<p className='SFtime'>
+							<AiOutlineClockCircle />
+							12 Minutes
 						</p>
 					</Content>
 				</Card>
-            </BottomRow>
+			</BottomRow>
+			<Button>View All Recipes</Button>
 		</CardContainer>
 	);
 };
