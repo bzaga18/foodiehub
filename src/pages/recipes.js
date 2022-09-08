@@ -6,6 +6,7 @@ import { RecipesWrap } from "../components/recipesInfo/RecipesInfoElements";
 import styled from "styled-components";
 import EditorsChoice from "../components/recipesEditorsChoice";
 import SpecialFeatures from "../components/specialFeatures";
+import SpecialFeatures2 from "../components/specialFeatures2";
 
 
 const RecipesPage = () => {
@@ -19,6 +20,7 @@ const RecipesPage = () => {
             </div>
             <EditorsChoice />
             <SpecialFeatures />
+            <SpecialFeatures2 />
 		</>
 	);
 };
